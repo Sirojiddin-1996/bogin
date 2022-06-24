@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Bo‘g‘in</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row1">
+            <img class="logo" src="./img/Group 3.png" alt="">
+        </div>
+        <div class="row2">
+            <h1>Bo‘g‘inga ajratmoqchi bo‘lgan so‘zni kiriting!</h1>
+            <div class="insert">
+                <img class="img1" src="./img/Vector.svg" alt="">
+                <input id="text" type="text"  placeholder="So‘zni kiriting..">
+            </div>
+            
+            <button id="button" onclick="ajratish(document.getElementById('natija'), document.getElementById('text').value)">Tekshirish</button>
+            <h4>Natija:</h4>
+            <div class="result">
+                <img class="img2" src="./img/Vector.svg" alt="">
+                <input id="natija" placeholder="Natija.." readonly>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+    
+</body>
+</html>
